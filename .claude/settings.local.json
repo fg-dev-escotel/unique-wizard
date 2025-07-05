@@ -8,7 +8,8 @@
       "Bash(find:*)",
       "Bash(git checkout:*)",
       "Bash(ls:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(rg:*)"
     ],
     "deny": []
   }

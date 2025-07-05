@@ -7,6 +7,7 @@ import Home from "../views/home/Home";
 import About from "../views/about/About";
 import Contact from "../views/contact/Contact";
 import Sell from "../views/sell/Sell";
+import CarDetail from "../views/carDetail/CarDetail";
 import Login from "../views/auth/Login";
 import Register from "../views/auth/Register";
 import Profile from "../views/profile/Profile";
@@ -63,6 +64,7 @@ export const AppRouter = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/vender" element={<Sell />} />
+        <Route path="/subasta/:id" element={<CarDetail />} />
         <Route 
           path="/login" 
           element={
